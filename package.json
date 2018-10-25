@@ -8,10 +8,10 @@
         "dist": "build",
         "start": "electron ."
     },
-    "author": "Anngi",
+    "author": "LMarriaga",
     "license": "MIT",
     "build": {
-        "appId": "CRUD-electronv1",
+        "appId": "CRUD-electron",
         "asar": true,
         "win": {
             "target": "NSIS",
