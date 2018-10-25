@@ -1,0 +1,25 @@
+{
+    "name": "crud-file",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "pack": "build --dir",
+        "dist": "build",
+        "start": "electron ."
+    },
+    "author": "Anngi",
+    "license": "MIT",
+    "build": {
+        "appId": "CRUD-electronv1",
+        "asar": true,
+        "win": {
+            "target": "NSIS",
+            "icon": "build/icono.ico"
+        }
+    },
+    "devDependencies": {
+        "electron": "^3.0.5",
+        "electron-builder": "^20.28.4"
+         }
+}
